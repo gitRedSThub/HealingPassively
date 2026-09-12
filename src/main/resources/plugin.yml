@@ -1,0 +1,22 @@
+name: HealingPassively
+description: Periodically heals passive mobs around every online player.
+version: '${version}'
+
+main: me.redst.healingPassively.HealingPassively
+api-version: '1.21'
+load: POSTWORLD
+
+authors: [ _RedST ]
+
+commands:
+  healingpassively:
+    description: Manage HealingPassively.
+    usage: /healingpassively help
+    aliases: [ healpassively, hpassively, hp ]
+    permission: healingpassively.admin
+    permission-message: You do not have permission to use HealingPassively commands.
+
+permissions:
+  healingpassively.admin:
+    description: Allows use of every /healingpassively command.
+    default: op

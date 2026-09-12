@@ -1,0 +1,62 @@
+# How far around player
+# Unit: blocks
+# Must be greater than 0.
+# Default: 64
+distance: 64
+
+# How often the plugin performs a scan.
+# Unit: seconds
+# Must be at least 1.
+# Default: 10
+timer: 10
+
+# How much health per cycle.
+# Must be greater than 0.
+# Default: 1
+heal-amount: 1
+
+# If true, only the entities listed under "white list" are healed.
+# If false, the whitelist is ignored completely and every valid.
+# Default: true
+in-whitelist: true
+
+# Entities listed here can be healed while in-whitelist is true.
+#
+# Names are normal Minecraft entity names. Both styles work:
+#   - cow
+#   - snow_golem
+#   - minecraft:cow
+#
+# ============================================================
+
+white list:
+  - armadillo
+  - bat
+  - cat
+  - chicken
+  - cow
+  - donkey
+  - fox
+  - horse
+  - mooshroom
+  - mule
+  - ocelot
+  - parrot
+  - pig
+  - rabbit
+  - sheep
+  - sniffer
+  - snow_golem
+  - villager
+  - wandering_trader
+  - axolotl
+  - camel
+  - cod
+  - frog
+  - glow_squid
+  - salmon
+  - squid
+  - tadpole
+  - tropical_fish
+  - turtle
+  - strider
